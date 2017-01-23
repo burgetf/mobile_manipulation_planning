@@ -1,6 +1,6 @@
 # ROS Packages for Task Constrained Mobile Manipulation Planning
 
-This repository primarily contains an efficient sampling-based planning framework, called BI^(2)RRT*, that extends the [Informed RRT*] of Gammell et al. towards bidirectional search, informed sampling for omnidirectional mobile manipulator robotic platforms and satisfaction of arbitrary geometric endeffector task constraints. The associated paper of the framework presented at the IEEE/RSJ International Conference on Intelligent Robots and Systems can be found in [Burget et al.]
+This repository primarily contains an efficient sampling-based planning framework, called BI<sup>2</sup>RRT\*, that extends the Informed RRT\* of [Gammell et al.] towards bidirectional search, informed sampling for omnidirectional mobile manipulator robotic platforms and satisfaction of arbitrary geometric endeffector task constraints. The associated paper of the framework presented at the IEEE/RSJ International Conference on Intelligent Robots and Systems can be found in [Burget et al.]
 
 Use the "*robot_motion.rosinstall*" file for downloading the ROS packages for robot [motion planning], [control] and [trajectory execution] distributed to different repositories:
 - `robot_motion_planning`: Motion Planning using different RRT-based planning algorithms (including the novel BI^(2)RRT* planning framework)
@@ -45,7 +45,7 @@ Further information can be found in the README.md file of the robot [motion plan
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   [Informed RRT*]: <https://arxiv.org/pdf/1404.2334v3.pdf>
+   [Gammell et al.]: <https://arxiv.org/pdf/1404.2334v3.pdf>
    [Burget et al.]: http://www2.informatik.uni-freiburg.de/~burgetf/pub/burget16iros.pdf
    [motion planning]: https://github.com/burgetf/robot_motion_planning
    [control]: https://github.com/burgetf/robot_motion_control
