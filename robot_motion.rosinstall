@@ -1,0 +1,3 @@
+- git: {local-name: robot_motion_execution, uri: 'https://github.com/burgetf/robot_motion_execution', version: master}
+- git: {local-name: robot_motion_control, uri: 'https://github.com/burgetf/robot_motion_control', version: master}
+- git: {local-name: robot_motion_planning, uri: 'https://github.com/burgetf/robot_motion_planning', version: master}
