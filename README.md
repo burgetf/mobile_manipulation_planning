@@ -6,6 +6,7 @@ Use the "*robot_motion.rosinstall*" file for downloading the ROS packages for ro
 - `robot_motion_planning`: Motion Planning using different RRT-based planning algorithms (including the novel BI<sup>2</sup>RRT\* planning framework)
 - `robot_motion_control`: Jacobian-based motion control algorithms (Jacobian damped-least squares etc.)
 - `robot_motion_execution`: Algorithms for executing the planned motion trajectories on a simulated and real robot platform
+- `robot_motion_examples`: Examples for planning and execution using the planning and execution server (provided by robot_motion_planning/robot_motion_execution package)
 
 ### Installation 
 
